@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Passion+One&family=Roboto:wght@300&display=swap');
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+.container {
+	/* just to see the container */
+	/* border: 1px solid black; */
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	background: linear-gradient(to right, #DEDEDE, #FFFFFF);
+}
+
+.items {
+	/* just to see the container */
+	/* border: 1px solid black; */
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+	font-size: 1.5rem;
+}
+
+input, h3, h4 {
+	margin-top: 25px;
+}
